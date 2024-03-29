@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-color{
+    background-color: #D7ECEB;
+    color: #111C45;
+}
+
+input{
+    width: 20rem;
+    padding: 10px;
+}
