@@ -17,3 +17,23 @@ input{
     font: 22px bold;
 
 }
+
+@media(max-width:640px){
+
+    #para{
+        font: 18px bold;
+    
+    }
+
+    input{
+        width: 15rem;
+        padding: 9px;
+    }
+    .mt-6{
+        margin-top: 80px;
+    }
+
+    
+
+}
+

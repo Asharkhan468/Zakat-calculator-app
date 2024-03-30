@@ -11,21 +11,24 @@
 </head>
 
 <body class="bg-color">
-
+<div class="mt-6">
     <h1 class="text-center mt-4">Zakat Calculator App</h1>
 
-    <div class="text-center mt-5">
+    <div class="text-center mt-5 ">
 
         <input type="number" value="" placeholder="Enter Cash in Hand (PKR)" id="cash-field"> <br> <br>
         <input type="number" value="" placeholder="Enter gold in gram" id="gold-field"> <br> <br>
+        <input type="number" value="" placeholder="Enter anyother assets" id="other-assets"> <br> <br>
         <input type="number" value="" placeholder="Enter current gold price" id="gold-price"> <br> <br>
-
-        <button onclick="calculateZakat()" type="button" class="btn btn-warning">Calculate</button>
+        
+        <button onclick="calculateZakat()" type="button" class="btn btn-warning mt-3">Calculate</button>
     </div>
 
-   <div>
-    <p id="para">Hello JS</p>
+   <div class="text-center mt-5">
+    <p id="para" class="container"></p>
    </div>
+
+</div>
 
 
 
